@@ -319,7 +319,7 @@ p {
 }
 
 /* Tablet */
-@media (max-width: 996px) {
+@media (max-width: 992px) {
 
   #container,
   .linkbar {
