@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Arjun Sur</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+</head>
+
+<body>
+  <!-- Need this to be outside container because the CSS variable changes won't propagate otherwise -->
+  <input id="color-mode" name="color-mode" type="checkbox">
+  </input>
+  <label for="color-mode">
+    <img id="sun" src="images/color-switcher/sun.svg">
+    <img id="moon" src="images/color-switcher/moon.svg">
+  </label>
+
+  <!-- Need this because <body> does not support dynamic CSS variables for the CSS-based light/dark mode switcher -->
+  <div id="background"></div>
+
+  <div id="container">
+    <div class="linkbar">
+      <div class="links">
+        <a href="https://arjunsur.me" title="My Website">
+          <div>
+            <img src="images/socials/website.svg">
+          </div>
+        </a>
+        <a href="https://github.com/Arjun-Sur" target="_blank" title="My GitHub">
+          <div>
+            <img src="images/socials/github.svg">
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/arjun-sur" target="_blank" title="My LinkedIn">
+          <div>
+            <img src="images/socials/linkedin.svg">
+          </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="My YouTube">
+          <div>
+            <img src="images/socials/youtube.svg">
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div id="wrapper">
+      <div id="hero">
+        <h1>Arjun Sur</h1>
+        <h2>Take <span class="text-gradient">pride</span> in your <span class="text-gradient">work</span></h2>
+      </div>
+
+      <h3>Myself</h3>
+      <p><img src="images/san-diego.png" id="picture-1" title="San Diego Skyline" />My name is Arjun, and I entered this
+        world in November of 2006
+        in <a href="https://www.sandiego.gov" target="_blank">San Diego, California</a>, alongside my identical twin
+        brother. My background is a blend of Polish and Indian heritage, courtesy of my mother and my father,
+        respectively. Currently, I’m in my junior year at Canyon Crest Academy, having previously attended Carmel
+        Valley
+        Middle School and Sage Canyon Elementary School. As I progress through my academic journey, I’m eagerly
+        anticipating graduating and going to college. After graduating with a master’s degree in <span
+          class="highlight">Computer Science</span>
+        (ideally), I’d like to explore a career in the realm of software engineering.</p>
+
+      <h3>My Hobbies</h3>
+      <p><img src="images/wind-ensemble.png" id="picture-2" title="CCA Wind Ensemble" />In my spare time, you’ll often
+        find me engrossed in
+        programming web apps,
+        tweaking video games, and collaborating on various projects with fellow developers. Additionally, I like
+        to
+        practice <span class="highlight">Trumpet</span> as I play for the <a
+          href="https://sites.google.com/sduhsd.net/avillanova/ensembles" target="_blank">CCA Wind Ensemble</a>. Besides
+        those activities, I enjoy cooking meals and teaching
+        people
+        about subjects I am passionate about. I’m always receptive to new ideas and constantly learning more about
+        the
+        world. Continual learning is a cornerstone of my life, whether it be diving into philosophy or finding
+        opportunities for personal growth.</p>
+
+      <h3>My People</h3>
+      <p><img src="images/ravens.png" id="picture-3" title="CCA Ravens" />My social circle may be modest in size, but
+        it’s comprised
+        trusted friends
+        whom
+        I’ve known for years. Beyond my inner circle, I’m generally friendly with a lot of <a
+          href="https://cc.sduhsd.net" target="_blank">my classmates and fellow “ravens.”</a> Of course, <span
+          class="highlight">my family</span>
+        holds
+        significant importance in my life and I cherish the time I spent with my mom, dad, older sister, and twin
+        brother. I thrive on authentic connections, often infusing humor and irony into interactions to make them
+        more
+        enjoyable and memorable. By surrounding myself with genuine individuals who can inspire and educate me is
+        how
+        I
+        truly grow as a person.</p>
+    </div>
+  </div>
+</body>
+
+</html>
