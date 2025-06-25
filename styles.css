@@ -31,7 +31,8 @@
 
   --border-radius: 20px;
 
-  @media (prefers-color-scheme: light) {
+  /* Disabled this since the light theme doesn't look that great */
+  /* @media (prefers-color-scheme: light) {
     --text: var(--text-light);
     --background: var(--background-light);
     --background-secondary: var(--background-secondary-light);
@@ -40,7 +41,7 @@
     --accent: var(--accent-light);
     --hover: var(--hover-light);
     --invert: var(--inver-light);
-  }
+  } */
 }
 
 /* Theme switcher start */
@@ -235,13 +236,6 @@ img {
     color: transparent;
     margin: 0 0 0 0;
     text-shadow: rgba(255, 25, 25, 30%) 0 0 10px;
-  }
-
-  h2 {
-    text-align: center;
-    font-style: italic;
-    color: white;
-    text-shadow: rgba(0, 0, 0, 30%) 0 0 10px;
   }
 
   .text-gradient {
